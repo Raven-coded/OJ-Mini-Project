@@ -20,20 +20,20 @@ To enable this application to run, the project's VM Arguments must be changed.
 
 - In the menu bar on top, click **`Run`** 
 
-  ![](\imgs\C1.jpg)
+  <img src="imgs\c1.JPG" style="zoom:80%;" />
 
   
 
 - In the **`Run`** dropdown, select **`Run Configurations`**. 
 
-  ![](\imgs\C2.jpg)
+  <img src="imgs\c2.JPG" style="zoom:80%;" />
 
 - Select the Arguments tab and paste `--module-path \src\Tools\javafx-sdk-15.0.1\lib --add-modules javafx.controls,javafx.fxml` in the *VM Arguments* text box.
 
-  ![](\imgs\C3.jpg)
+  <img src="imgs\c3.JPG" style="zoom:80%;" />
 
 - Also make sure that this check box is ***un-ticked.*** 
 
-  ![](\imgs\C4.jpg)
+  <img src="imgs\c4.JPG" style="zoom:80%;" />
 
 
