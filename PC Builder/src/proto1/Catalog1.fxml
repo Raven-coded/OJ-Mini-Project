@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="762.0" prefWidth="1260.0" styleClass="lineargrad" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proto1.CatalogController">
+   <center>
+      <AnchorPane prefHeight="762.0" prefWidth="1260.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+               <children>
+                  <ImageView fitHeight="737.0" fitWidth="1183.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@../../images.jpg" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="-0.76" contrast="-0.45" hue="-0.83" saturation="-0.36" />
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="488.0" layoutY="14.0" text="PC Builder" textFill="#fdff80" underline="true" wrapText="true">
+                     <font>
+                        <Font name="Consolas Bold" size="33.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="table" layoutX="7.0" layoutY="145.0" prefHeight="518.0" prefWidth="1169.0">
+                    <columns>
+                        <TableColumn fx:id="Id" prefWidth="87.0" resizable="false" text="ID" />
+                      <TableColumn fx:id="Name" prefWidth="450.0" text="Name" />
+                      <TableColumn fx:id="Memory" prefWidth="177.0" text="Memory" />
+                        <TableColumn fx:id="Chipset" prefWidth="161.0" text="Chipset" />
+                        <TableColumn fx:id="Speed" prefWidth="152.0" text="Speed" />
+                        <TableColumn fx:id="Price" prefWidth="139.0" text="Price" />
+                    </columns>
+                  </TableView>
+                  <JFXButton fx:id="addButton" buttonType="RAISED" layoutX="644.0" layoutY="676.0" onAction="#addToCartButton" styleClass="buttons" stylesheets="@application.css" text="Add To Cart" textFill="#fcf0f0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="viewButton" buttonType="RAISED" layoutX="424.0" layoutY="675.0" onAction="#ShoppingCartButton" styleClass="buttons1" stylesheets="@application.css" text="View Cart" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </JFXButton>
+                  <ImageView blendMode="SOFT_LIGHT" fitHeight="31.0" fitWidth="33.0" layoutX="1136.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../90-905672_x-cross-close-symbol-icon-button-gui-close.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="close" layoutX="1140.0" layoutY="21.0" onAction="#closebutton" prefHeight="25.0" prefWidth="23.0" />
+                  <HBox layoutX="14.0" layoutY="84.0" prefHeight="42.0" prefWidth="655.0" spacing="10.0" AnchorPane.bottomAnchor="611.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="514.0" AnchorPane.topAnchor="84.0">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <JFXButton fx:id="graphics" buttonType="RAISED" prefHeight="31.0" prefWidth="91.0" style="-fx-background-color: red;" styleClass="buttons1" stylesheets="@application.css" text="Graphics" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="proces" buttonType="RAISED" onAction="#cProcessor" prefHeight="31.0" prefWidth="94.0" styleClass="buttons1" stylesheets="@application.css" text="Processor" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="cooler" buttonType="RAISED" onAction="#cCooler" prefHeight="31.0" prefWidth="84.0" styleClass="buttons1" stylesheets="@application.css" text="Cooler" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="fan" buttonType="RAISED" onAction="#cFan" prefHeight="31.0" prefWidth="81.0" styleClass="buttons1" stylesheets="@application.css" text="Fan" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="power" buttonType="RAISED" onAction="#cPower" prefHeight="31.0" prefWidth="113.0" styleClass="buttons1" stylesheets="@application.css" text="Power Supply" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton fx:id="mother" buttonType="RAISED" onAction="#cMother" prefHeight="31.0" prefWidth="113.0" styleClass="buttons1" stylesheets="@application.css" text="Mother Board" textFill="WHITE">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+   <left>
+      <Region prefHeight="762.0" prefWidth="38.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Region prefHeight="762.0" prefWidth="29.0" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <Region prefHeight="10.0" prefWidth="1260.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <Region prefHeight="11.0" prefWidth="1260.0" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
