@@ -18,12 +18,22 @@ To enable this application to run, the project's VM Arguments must be changed.
 
 ***<u>Follow these steps to do so :</u>***
 
-1. In the menu bar on top, click **`Run`**![](C:\Projects\Github\OJ-Mini-Project\imgs\C1.jpg)
-2. In the **`Run`** dropdown, select **`Run Configurations`**. ![](C:\Projects\Github\OJ-Mini-Project\imgs\C2.jpg)
-3. Select the Arguments tab and paste `--module-path \src\Tools\javafx-sdk-15.0.1\lib --add-modules javafx.controls,javafx.fxml` in the *VM Arguments* text box. ![](C:\Projects\Github\OJ-Mini-Project\imgs\C3.jpg)
-4. Also make sure that this check box is ***un-ticked.*** ![](C:\Projects\Github\OJ-Mini-Project\imgs\C4.jpg)
+- In the menu bar on top, click **`Run`** 
 
+  ![](\imgs\C1.jpg)
 
+  
 
+- In the **`Run`** dropdown, select **`Run Configurations`**. 
+
+  ![](\imgs\C2.jpg)
+
+- Select the Arguments tab and paste `--module-path \src\Tools\javafx-sdk-15.0.1\lib --add-modules javafx.controls,javafx.fxml` in the *VM Arguments* text box.
+
+  ![](\imgs\C3.jpg)
+
+- Also make sure that this check box is ***un-ticked.*** 
+
+  ![](\imgs\C4.jpg)
 
 
