@@ -11,16 +11,16 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Adhoksh/Desktop/Shopping-Cart-with-JavaFX-master/Project-3/LoginGUI_FX/slf4j-api-1.7.23.jar">
+	<classpathentry kind="lib" path="src/Tools/slf4j-api-1.7.23.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Adhoksh/Desktop/Shopping-Cart-with-JavaFX-master/Project-3/LoginGUI_FX/sqlite-jdbc-3.21.0.jar">
+	<classpathentry kind="lib" path="src/Tools/sqlite-jdbc-3.21.0.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Adhoksh/Downloads/jfoenix-9.0.10.jar"/>
+	<classpathentry kind="lib" path="src/Tools/jfoenix-9.0.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
