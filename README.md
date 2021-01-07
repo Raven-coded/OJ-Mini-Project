@@ -26,14 +26,14 @@ To enable this application to run, the project's VM Arguments must be changed.
 
 - In the **`Run`** dropdown, select **`Run Configurations`**. 
 
-  <img src="imgs\c2.JPG" style="zoom:80%;" />
+  <img src="ihttps://github.com/Raven-coded/OJ-Mini-Project/blob/master/imgs/C2.jpg" style="zoom:80%;" />
 
 - Select the Arguments tab and paste `--module-path \src\Tools\javafx-sdk-15.0.1\lib --add-modules javafx.controls,javafx.fxml` in the *VM Arguments* text box.
 
-  <img src="imgs\c3.JPG" style="zoom:80%;" />
+  <img src="https://github.com/Raven-coded/OJ-Mini-Project/blob/master/imgs/C3.jpg" style="zoom:80%;" />
 
 - Also make sure that this check box is ***un-ticked.*** 
 
-  <img src="imgs\c4.JPG" style="zoom:80%;" />
+  <img src="https://github.com/Raven-coded/OJ-Mini-Project/blob/master/imgs/C4.jpg" style="zoom:80%;" />
 
 
