@@ -20,7 +20,7 @@ To enable this application to run, the project's VM Arguments must be changed.
 
 - In the menu bar on top, click **`Run`** 
 
-  <img src="imgs\c1.JPG" style="zoom:80%;" />
+  <img src="https://github.com/Raven-coded/OJ-Mini-Project/blob/master/imgs/C1.jpg" style="zoom:80%;" />
 
   
 
