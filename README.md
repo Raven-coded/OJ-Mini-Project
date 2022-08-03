@@ -36,4 +36,6 @@ To enable this application to run, the project's VM Arguments must be changed.
 
   <img src="https://github.com/Raven-coded/OJ-Mini-Project/blob/master/imgs/C4.jpg" style="zoom:80%;" />
 
+## Head over to the Screenshots folder for Pictures of the UI :
 
+[Screenshots](Screenshots)
